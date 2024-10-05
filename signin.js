@@ -37,7 +37,7 @@ function handleLogin(e) {
       alert("invalid credentials")
     }
   } else {
-    alert("No user details found in local storage")
+    alert("No user details found")
   }
 }
 
