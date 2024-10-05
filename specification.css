@@ -116,6 +116,9 @@
     border: 1px;
     margin-left: 5%;
 }
+#cart-btn:hover{
+    transform: scale(1.1);
+}
 
 .product-name {
     color: rgb(0, 0, 0);
@@ -133,14 +136,14 @@
 
 }
 
-.description{
+/* .description{
     background-color: rgb(255, 246, 234);
     border-radius: 20px;
 }
 #specification-container{
-    background-color:beige ; 
+    background-color:rgb(220, 244, 245) ; 
      /* padding: 80px;  */
-}
+
 #body{
-    background-color: beige;
-}
+    background-color: rgb(233, 247, 255);
+} 
