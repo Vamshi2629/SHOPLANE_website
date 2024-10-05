@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <!-- <link rel="stylesheet" href=""> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>SHOPLANE</title>
+</head>
+
+<body style="padding: 0px; margin:0px">
+
+    <nav class="navbar navbar-expand-lg navbar-light  " id="navbar" >
+        <div class="container-fluid header_links">
+            <a class="navbar-brand" style="color:#000000;" href="./index1.html"><img src="./shopimg-Photoroom.png" alt="" style="width: 170px;margin:0px;padding:0px;height:50px"></a>
+            <button class="navbar-toggler toggle" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+                <div class="navbar-nav header-links">
+                    <a class="nav-link active" aria-current="page" href="./index1.html">Home</a>
+                    <a class="nav-link cltacc" href="./index1.html#clothing">Clothing</a>
+                    <a class="nav-link" href="./index1.html#accessories">Accessories</a>
+                    
+                </div>
+               <div class="cart-btn">
+                <a  href="./cart.html"><i class="fa " id="cart-link" style="font-size:24px;"></i>
+                    <span class='badge badge-warning' id='lblCartCount'> 0</span>
+                </a>
+               </div>
+            </div>
+        </div>
+    </nav>
+    <div class="empty-cart-image">
+        <img src="https://i.pinimg.com/originals/2e/ac/fa/2eacfa305d7715bdcd86bb4956209038.png" alt=""><br>
+        <a href="./index1.html">Go to Home Page</a>
+    </div>
+    <div class="container-fluid cart_container" id="cart">
+        <div id="card_section"></div>
+        <div class="cart_bill">
+            <h2>Cart Items</h2>
+            <p>Total Bill = <span id="total_bill"> </span></p>
+            <button id="place_order_btn" onclick="placeOrder()">Place Order</button>
+        </div>
+    </div>
+   
+
+
+    <div class="last-section" style="width: 100%;">
+        <div class="left">
+            <h2>SHOPLANE</h2>
+            <P>Shoplane is ideal for small business owners who want to create an online presence, entrepreneurs looking
+                to start an e-commerce business, and individuals who want to sell products online. Overall, your
+                Shoplane project provides a comprehensive e-commerce solution for users.</P>
+            <p><i class="fa-solid fa-phone"></i> +91 8520091XXX </p>
+            <P><i class="fa-solid fa-envelope"></i> vamshiboda948@gmail.com</P>
+            
+            <ul type="none">
+                <li>
+                    <a href="https://www.facebook.com/vamshi.vamshivamshi.372?mibextid=ZbWKwL"><i
+                            class="fa-brands fa-facebook"></i></a>
+
+                </li>
+                <li><a href="https://www.instagram.com/vamshi2629/profilecard/?igsh=MW9sbDl3cnVobmJrMA=="
+                        target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/Vamshi2629" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://x.com/VamshiB30935188?t=rOEFu8BEXgzle5atZs4wkw&s=09"><i
+                            class="fa-brands fa-twitter"></i></a>
+
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/vamshiboda27"><i class="fa-brands fa-linkedin"></i></a>
+
+                </li>
+            </ul>
+        </div>
+        <div class="center">
+            <h2>HELPFULL LINKS</h2>
+            <ul>
+                <li><a href="./index1.html">Home</a></li>
+                <li><a href="./index1.html#accessories">Accessories</a></li>
+                <li><a href="./index1.html#clothing">Clothing</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <h2>OUR PARTNERS</h2>
+            <ul>
+                <li>ZARA</li>
+                <li>PANTALONES</li>
+                <li>LEVIS</li>
+                <li>UCB</li>
+                <li>+MANY MORE</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>© All right reserved | Vamshi B | 27 Sep 2024 </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.4/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/8af290325a.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <script src="./specification.js"></script>
+    <script src="./cart.js"></script>
+</body>
+
+</html>

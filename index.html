@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <title>ShopLane Login Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <h1 style="color: rgb(255, 255, 255);"><b><span style="color: rgb(255, 149, 0);">SHOP</span><span
+                        style="color: blue;">LANE </span>Signin Page</b></h1>
+        </div>
+        <form action="" id="form">
+            <h2>Signin</h2>
+            <fieldset>
+                <legend><label for="login-name"><b>Email or Username</b></label></legend>
+                <input type="text" id="login-name" placeholder="Enter Email or Username" required>
+            </fieldset>
+            <fieldset id="field-psd">
+                <legend><label for="login-psd"><b>Password</b></label></legend>
+                <input type="password" id="login-psd" placeholder="Enter Password" required minlength="8">
+                <label for="checkbox" id="psdlabel">Show Password </label>
+                <input type="checkbox" id="checkbox" onclick="passwordType()">
+                <p id="forgot-psd-link"><a href="./forgotPassword.html">Forgot Password?</a></p>
+            </fieldset>
+            <div id="login-footer">
+                <p>Not have an account? <br> <a href="./signup.html">Create account here!</a></p>
+                <button id="login-btn">Signin</button>
+            </div>
+        </form>
+    </div>
+    <script src="./signin.js"></script>
+</body>
+
+</html>

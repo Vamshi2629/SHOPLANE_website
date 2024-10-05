@@ -1,0 +1,146 @@
+#specification-container {
+    display: flex;
+    width: 80%;
+    /* border: 1px solid black; */
+    /* height: 500px; */
+    margin: 20px auto;
+}
+
+.specification-img {
+    width: 40%;
+    /* border: 1px solid //sred; */
+}
+
+.description {
+    width: 60%;
+    padding: 15px;
+    margin-left: 3%;
+}
+
+#left-img {
+    width: 100%;
+    height: 80%;
+    margin-top: 20%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px skyblue, -1px -1px 3px skyblue;
+
+}
+
+#left-img:hover {
+    cursor: zoom-in;
+}
+
+@media(max-width:600px) {
+    #specification-container{
+        display: block;
+    }
+    #left-img {
+        width:150%;
+        height: 100%;
+        /* margin-top: 60%; */
+        border-radius: 15px;
+        box-shadow: 1px 1px 3px skyblue, -1px -1px 3px skyblue;
+        margin: 10px 80px;
+
+    }
+    .description{
+        width: 100%;
+    }
+}
+
+#cart-btn:hover {
+    box-shadow: 3px 3px 3px skyblue, -3px -3px 3px skyblue;
+
+}
+
+#left-img:hover {
+    box-shadow: 3px 3px 3px skyblue, -3px -3px 3px skyblue;
+
+}
+
+#product-preview {
+    /* width: 80%; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-left: 10px;
+    /* box-shadow: 1px 1px 3px skyblue,-1px -1px 3px skyblue; */
+
+}
+
+.preview-img {
+    /* height: 30px; */
+    width: 100%;
+    /* border: 1px solid red; */
+
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+    margin-left: 5px;
+    /* margin-left: 60px; */
+    /* border-radius: 15px; */
+    /* box-shadow: 1px 1px 3px skyblue,-1px -1px 3px skyblue; */
+    /* border: 0.3px solid skyblue; */
+
+}
+
+.small-img {
+    border-radius: 10px;
+}
+
+.preview-img:hover {
+    box-shadow: 3px 3px 3px skyblue, -3px -3px 3px skyblue;
+}
+
+.active {
+    border: 3px solid rgb(0, 208, 255);
+    border-radius: 5px
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+
+    /* background-color: skyblue; */
+}
+
+#cart-btn {
+    margin-top: 2%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(55, 209, 243);
+    color: white;
+    border: 1px;
+    margin-left: 5%;
+}
+
+.product-name {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.product-brand {
+    color: rgb(1, 180, 251);
+    font-weight: 700;
+}
+
+.product-price {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+}
+
+.description{
+    background-color: rgb(255, 246, 234);
+    border-radius: 20px;
+}
+#specification-container{
+    background-color:beige ; 
+     /* padding: 80px;  */
+}
+#body{
+    background-color: beige;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <title>Create ShopLane Account Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <h1 style="color: rgb(255, 255, 255);"><b><span style="color: rgb(255, 119, 0);">SHOP</span><span
+                        style="color: blue;">LANE </span>Signup Page</b></h1>
+        </div>
+        <form action="" id="form">
+            <h2>Create Account</h2>
+            <fieldset>
+                <legend><label for="signin-username"><b>Username</b></label></legend>
+                <input type="text" id="signin-username" placeholder="Enter Username" required>
+            </fieldset>
+            <fieldset>
+                <legend><label for="signin-email"><b>Email</b></label></legend>
+                <input type="email" id="signin-email" placeholder="Enter Email " required>
+            </fieldset>
+            <fieldset>
+                <legend><label for="create-psd"><b>Create Password</b></label></legend>
+                <input type="password" id="create-psd" placeholder="Enter new Password" required minlength="8">
+            </fieldset>
+            <fieldset>
+                <legend><label for="confirm-psd"><b>Confirm Password</b></label></legend>
+                <input type="password" id="confirm-psd" placeholder="Re-enter new Password" required minlength="8">
+            </fieldset>
+            <div id="login-footer">
+                <p>Go to <a href="./index.html">Signin Page</a></p><button id="login-btn"
+                    submit="signin()">Signup</button>
+            </div>
+        </form>
+    </div>
+    <script src="./signup.js"></script>
+</body>
+
+</html>
